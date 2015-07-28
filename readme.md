@@ -12,7 +12,7 @@ If you have [homebrew](http://brew.sh/), you can install and run Elasticsearch w
 brew install elasticsearch && elasticsearch
 ```
 
-#Migrating to version 0.2
+# Migration from 0.1.x
 
 ## Pagination
 version 0.1.x
@@ -22,7 +22,7 @@ Cat.search({ query: '*', page: 2, pageSize: 25 }, function (err, results) {
   // ...
 })
 ```
-version 0.2.x
+new versions
 ```js
 // Paginate through the data
 Cat.search({ query: '*', from: 25, size: 25 }, function (err, results) {
