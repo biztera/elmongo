@@ -1,7 +1,7 @@
 {
   "name": "lmongo",
   "description": "Mongoose + Elasticsearch with Heroku and Bonsai Support",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Jack Hsu",
   "keywords": [
     "mongoose",
