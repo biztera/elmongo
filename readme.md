@@ -1,3 +1,7 @@
+# Important Notice
+
+This is no longer maintained. Please use [mongoosastic](https://github.com/mongoosastic/mongoosastic) instead.
+
 #`lmongo`
 
 ##The Power of Elasticsearch for Mongoose.
